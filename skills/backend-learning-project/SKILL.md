@@ -9,6 +9,25 @@ description: Create small backend application projects for learning any language
 
 Use this skill to create a compact, practical backend API project for learning a language and framework, then turn the project into a code-reading guide. Keep the project small enough to finish in one session but realistic enough to teach routing, validation, application layers, persistence, tests, Docker, and local operation.
 
+## How Users Invoke It
+
+Use this skill when a user wants Codex to generate a backend learning project and explain the resulting code. The user can name the skill directly or describe the desired stack and learning goal.
+
+Good example requests:
+
+- `Use $backend-learning-project to create a Go/Gin API project for learning backend basics.`
+- `backend-learning-project で FastAPI と SQLite の小さい学習用 API を作って、コードの読み方も説明して。`
+- `Express で CRUD API を作りながらバックエンド構成を学べる教材プロジェクトを作って。`
+
+Tell the user they may specify:
+
+- Language and framework, such as Go/Gin, Python/FastAPI, or Node/Express.
+- App theme, such as bookmarks, tasks, notes, recipes, or expenses.
+- Persistence, such as in-memory storage, SQLite, PostgreSQL, or another simple local option.
+- Learning focus, such as routing, validation, service layers, database access, tests, Docker, or code-reading explanations.
+
+Expected output is a runnable small API project plus a beginner-friendly guide under `docs/` that explains the actual generated code. If the user omits details, choose practical beginner defaults and state them briefly.
+
 ## Workflow
 
 1. Identify the target language, framework, persistence option, and app theme from the user request. If any are missing, choose conservative defaults and state them briefly before implementation.
