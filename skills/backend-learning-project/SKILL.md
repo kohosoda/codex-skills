@@ -73,3 +73,4 @@ For Go, give extra attention to basic syntax before explaining Gin behavior. For
 - `references/code-guide-generation.md`: documentation checklist and guide structure.
 - `references/language-profiles/go.md`: Go syntax topics to explain in generated guides.
 - `references/framework-profiles/gin.md`: Gin concepts and project patterns to include.
+- `references/framework-profiles/fastapi.md`: FastAPI concepts, boundaries, and official docs references to include.
