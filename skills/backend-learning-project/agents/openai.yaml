@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backend Learning Project"
+  short_description: "Generate backend projects and learning guides"
+  default_prompt: "Use $backend-learning-project to create a small backend learning project and explain the code."
