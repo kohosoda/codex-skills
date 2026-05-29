@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Update Radar"
+  short_description: "Track AI model and coding-agent updates"
+  default_prompt: "Use $ai-update-radar to summarize recent AI model and coding-agent updates."
